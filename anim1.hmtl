@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym.Games.com</title>
+   <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+   <link rel="shortcut icon" href="https://static.vecteezy.com/system/resources/thumbnails/000/595/983/small/04012019-25.jpg">
+    <link rel="stylesheet" href="loco.css"> 
+    <link rel="stylesheet" href="anim.css">
+</head>
+<body>
+    <div id="cursor"></div>
+    <div class="nav">
+        <div id="nav1">
+            <div id="nav1first">
+            <h1>GYM.</h1>
+            <h1>Goods</h1>
+            </div>
+            <div id="nav1sec">
+              <h1>G<i class="ri-game-fill"></i>G</h1>
+            </div>
+        </div>
+        <div id="nav2">
+             <a href="#">shop</a>
+             <a href="#">CATERiNG<i class="ri-arrow-right-up-line"></i></a>
+             <a href="#">DONATE</a>
+             <div  id="icon">
+                <i class="ri-menu-line"></i>
+                <i class="ri-shopping-cart-line"></i>
+             </div>
+        </div>
+    </div>
+    <div id="main">
+        <div id="page1">
+            <h1>change</h1>
+            <h1 id="not">the course</h1>
+            <div class="video_con">
+                <div id="play">PLAY</div>
+                <video autoplay loop muted src="videoanim.mp4"></video>
+                
+            </div>
+        </div>
+        <div id="page2">
+            <div class="elem" id="elem1">
+                <img data-scroll data-scroll-speed="1" src="https://cdn.pixabay.com/photo/2016/11/29/09/10/man-1868632_640.jpg" alt="">
+                <div data-scroll data-scroll-speed="-2" class="box">
+                    <div class="boxin" id="one">
+                        <i class="ri-circle-fill"></i>
+                        <h4>rope</h4>
+                       <i class="ri-arrow-right-s-line"></i>
+                     </div>
+                     <div class="boxinimg">
+                         <img src="https://static.vecteezy.com/system/resources/previews/011/299/697/non_2x/skipping-rope-fitness-equipment-3d-icon-illustration-png.png" alt="">
+                         <img src="https://www.pngkey.com/png/full/891-8913862_sandrope-battle-rope-racketlon.png" alt="">
+                     </div>
+                    </div>
+                </div>
+            <div class="elem" id="elem2">
+                <img data-scroll data-scroll-speed="1" src="https://cdn.pixabay.com/photo/2018/03/23/11/57/girl-3253532_1280.jpg" alt="">
+                <div data-scroll data-scroll-speed="-2" class="box">
+                    <div class="boxin" id="two">
+                    <i class="ri-circle-fill"></i>
+                    <h4>gloves</h4>
+                    <i class="ri-arrow-right-s-line"></i>
+                </div>
+                <div class="boxinimg">
+                    <img src="https://clipart-library.com/images_k/boxing-gloves-transparent/boxing-gloves-transparent-3.png" alt="">
+                    <img src="https://bridgecityfightshop.com/cdn/shop/files/T3_NeonBlue_MainImg_084208b4-805f-40b2-b039-9a03ca9c2121_grande.png?v=1686162464" alt="">
+                </div>
+            </div>
+            </div>
+            <div class="elem" id="elem3">
+                <img data-scroll data-scroll-speed="1" src="https://cdn.pixabay.com/photo/2019/02/19/14/43/fitness-4006937_640.jpg" alt="">
+                <div data-scroll data-scroll-speed="-2" class="box">
+                    <div class="boxin" id="three">
+                    <i class="ri-circle-fill"></i>
+                    <h4>yoga</h4>
+                    <i class="ri-arrow-right-s-line"></i>
+                </div>
+                <div class="boxinimg">
+                     <img src="https://www.pngplay.com/wp-content/uploads/12/Leggings-No-Background.png" alt="">
+                    <img src="https://allcitizens.com/cdn/shop/products/all-citizens-compression-underwear-black-back.png?v=1672288220" alt="">
+                </div>
+            </div>
+            </div>
+        </div>
+        <div id="page3">
+            <div class="child" id="child1">
+                <img src="https://static.vecteezy.com/system/resources/previews/008/496/407/original/3d-bench-press-object-with-transparent-background-png.png" alt="">
+                <div class="info">
+                     <h4>Bench Press</h4>
+                     <h4>$140</h4>
+                </div>
+            </div>
+            <div class="child" id="child2">
+                <img src="https://ironlabgymequipment.com/cdn/shop/files/FORCEPlates-Icon-NoBackground-PhotoRoom_1.png?v=1686016077&width=533" alt="">            
+                <div class="info">
+                    <h4>Leg Press</h4>
+                    <h4>$200</h4>
+               </div>
+            </div>
+            <div class="child" id="child3">
+                
+                <img src="https://www.pngmart.com/files/7/Gym-Machine-Background-PNG.png" alt="">
+                <div class="info">
+                    <h4>Traid Mill</h4>
+                    <h4>$120</h4>
+               </div>
+            </div>
+            <div class="child" id="child4">
+                <img src="https://www.459crossfit.com/wp-content/uploads/2018/04/gym_slider_kp_sm54_459.png" alt="">
+                <div class="info">
+                    <h4>Barbell</h4>
+                    <h4>$30</h4>
+               </div>
+            </div>
+            <div class="last"></div>
+        </div>
+        <div id="page4">
+               <div id="btn">
+                  <div class="review">
+                    <input type="radio" id="one1" name="fav_language" value="HTML" checked>
+                    <label for="one1" >Yatinder Singh</label><br>
+                  </div>
+                  <div class="review">
+                    <input type="radio" id="two2" name="fav_language" value="HTML">
+                    <label for="two2">Sangram Chougule</label><br>
+                  </div>
+                  <div class="review">
+                    <input type="radio" id="three3" name="fav_language" value="HTML">
+                   <label for="three3">Mukesh Singh Gahlot</label><br>
+                  </div>
+                  <div class="review">
+                    <input type="radio" id="four4" name="fav_language" value="HTML">
+                    <label for="four4">Jhi Yeon-woo</label><br>
+                  </div>
+                  <div class="review">
+                    <input type="radio" id="five5" name="fav_language" value="HTML">
+                   <label for="five5">Arambam Boby</label><br>
+                  </div>
+                  <div class="review">
+                    <input type="radio" id="six6" name="fav_language" value="HTML">
+                   <label for="six6">Thakur Anoop Singh</label><br>
+                   </div>
+                   <div class="review">
+                    <input type="radio" id="one1" name="fav_language" value="HTML">
+                    <label for="one1" >Yatinder Singh</label><br>
+                  </div>
+                  <div class="review">
+                    <input type="radio" id="two2" name="fav_language" value="HTML">
+                    <label for="two2">Sangram Chougule</label><br>
+                  </div>
+                  <div class="review">
+                    <input type="radio" id="three3" name="fav_language" value="HTML">
+                   <label for="three3">Mukesh Singh Gahlot</label><br>
+                  </div>
+                  <div class="review">
+                    <input type="radio" id="four4" name="fav_language" value="HTML">
+                    <label for="four4">Jhi Yeon-woo</label><br>
+                  </div>
+                  <div class="review">
+                    <input type="radio" id="five5" name="fav_language" value="HTML">
+                   <label for="five5">Arambam Boby</label><br>
+                  </div>
+                  <div class="review">
+                    <input type="radio" id="six6" name="fav_language" value="HTML">
+                   <label for="six6">Thakur Anoop Singh</label><br>
+                  </div>
+               </div>
+               <div id="thought">
+                <h1>i have to say they serve the purpose quite well remember to find the sweet spot for how tight the wraps should be, not so tight that you're cutting off blood circulation and not so loose that the wrists bend on the slightest of pressure
+                    they have been holding up well with no damage for the past 4 months of minor usage so that's pretty dope</h1>
+               </div>
+               <div id="email">
+                 <h1>enter your email</h1>
+               </div>
+               <div class="last"></div>
+        </div>
+        <div id="page5">
+            <div class="footer1">
+                <div id="content">
+                     <a href="#">contact with us</a>
+                     <div class="cont8">
+                        <h5>facebook</h5>
+                        <i class="ri-facebook-circle-fill"></i>
+                     </div>
+                     <div class="cont8">
+                        <h5>instagram</h5>
+                        <i class="ri-instagram-fill"></i>
+                     </div>
+                     <div class="cont8">
+                        <h5>youtube</h5>
+                        <i class="ri-youtube-fill"></i>
+                     </div>
+                     <div class="cont8">
+                        <h5>LinkedIn</h5>
+                        <i class="ri-links-line"></i>
+                     </div>
+                </div>
+                <div id="logo">
+                    <h1>G<i class="ri-game-fill"></i>G</h1>
+                    <div id="logo2">
+                        <h4>GYM.GOODS</h4>
+                    </div>
+                </div>
+                <div id="ptanhi">
+                    <a href="#">THE NITTY GRITTIES</a>
+                    <h4>Careers</h4>
+                    <h4>Pathways</h4>
+                    <h4>Good Places</h4>
+                    <h4>Good Food FAQs</h4>
+                    <h4>Good Things FAQs</h4>
+                </div>
+            </div>
+            <div class="footer2">
+                <p>We are proud and privileged to have our home on this land, and to be able to continue the long tradition of community coming together around food, begun thousands of years ago by First Nations peoples. As we stand together on this unceded land, we acknowledge our First Nations people, are the original custodians of this land, and we recognise their deep connection to land, water, sky and community which continues today. We pay our deep respects to community elders, past, present and emerging, for they hold the memories, the traditions, the culture and hopes of Aboriginal and Torres Strait Islander peoples. Always was, always will be Aboriginal land.</p>
+            </div>
+        </div>
+    </div>
+
+     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script> 
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="anim.js"></script>
+</body>
+</html>
